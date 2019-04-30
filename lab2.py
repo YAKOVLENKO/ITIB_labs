@@ -1,4 +1,5 @@
 # coding: utf-8
+# Применение однослойной нейронной сети с линейной функцией активации для прогнозирования временных рядов
 
 import numpy as np
 import matplotlib.pyplot as plt
