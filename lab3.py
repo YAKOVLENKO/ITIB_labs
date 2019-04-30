@@ -1,4 +1,5 @@
 # coding: utf-8
+# Исследование нейронных сетей с радиальными базисными функциями (RBF) на примере моделирования булевых выражений
 
 import numpy as np
 from itertools import product, combinations
