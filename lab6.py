@@ -101,7 +101,6 @@ def __main__():
         net.learningProcess(data_list)
         result = net.workingProcess(data_list)
         data['Cluster'] = result
-        data.sort_values(['Cluster', 'Capacity']).to_csv('result.csv', sep=';', encoding='cp1251')
         try:
             print(data.sort_values(['Cluster', 'Capacity']).to_string())
         except:
